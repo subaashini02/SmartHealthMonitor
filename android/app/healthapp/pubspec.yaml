@@ -1,0 +1,22 @@
+name: healthapp
+description: A health tracking application
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+  flutter: ">=3.0.0"  # Add this line to specify Flutter SDK constraint
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  shared_preferences: ^2.3.2
+  provider: ^6.0.3
+  fl_chart: ^0.65.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
